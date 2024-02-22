@@ -38,8 +38,6 @@ Swal.fire({
     if (result && result.value) {
         const { fullName, position, email, phone, whatsapp, location } = result.value;
 
-        console.log(result)
-
         document.getElementById("fullName").innerHTML = fullName;
 
         document.getElementById("position").innerHTML = position;
